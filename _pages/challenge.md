@@ -17,12 +17,12 @@ The inaugural <b>Social-IQ Challenge</b> will be co-hosted with the [Artificial 
 If you plan to participate, please fill out this [form](https://forms.gle/ZVTAvNunBQUa9ncJ6) with your email address so we can keep you up to date with any relevant updates about the challenge.
 
 ## Important Dates 📅
-- [x] Challenge is released 📅  May 15
-- [ ] Challenge and paper submission sites open, test set released 📅  mid-June
-- [ ] Paper submissions and final challenge submissions due 📅 July 21
-- [ ] Acceptance decisions issued 📅 August 4
-- [ ] Camera ready paper due 📅 August 11
-- [ ] ICCV workshop 📅 one of the days in October 4-6, exact date TBA
+- [x] Challenge is released: <b>May 15</b>
+- [ ] Challenge and paper submission sites open, test set released: <b> mid-June</b>
+- [ ] Paper submissions and final challenge submissions due: <b>July 21</b>
+- [ ] Acceptance decisions issued: <b>August 4</b>
+- [ ] Camera ready paper due: <b>August 11</b>
+- [ ] ICCV workshop: <b>October 2</b>
 
 ## Awards 🏆 and Prizes 💰
 There will be over $1,200 in total prizes. We will give the following awards and may create additional awards as well.
@@ -113,33 +113,33 @@ The [Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/
   <tr>
      <td>
         <img style="width: 150px" src="/social-iq-2.0/assets/img/alexwilf.jpg"/>
-         <br/><a href="https://abwilf.github.io">Alex Wilf</a>
+         <br/><a href="https://abwilf.github.io" style="text-align:center;">Alex Wilf</a>
      </td>
      <td>
         <img style="width: 150px" src="/social-iq-2.0/assets/img/leena.jpg"/>
-         <br/><a href="https://l-mathur.github.io">Leena Mathur</a>
+         <br/><a href="https://l-mathur.github.io" style="text-align:center;">Leena Mathur</a>
      </td>
      <td>
         <img style="width: 150px" src="/social-iq-2.0/assets/img/youssouf.jpg"/>
-         <br/><a href="https://gkebe.github.io">Youssouf Kebe</a>
+         <br/><a href="https://gkebe.github.io" style="text-align:center;">Youssouf Kebe</a>
      </td>
     <td>
         <img style="width: 150px" src="/social-iq-2.0/assets/img/paul.jpeg"/>
-         <br/><a href="https://www.cs.cmu.edu/~pliang/">Paul Liang</a>
+         <br/><a href="https://www.cs.cmu.edu/~pliang/" style="text-align:center;">Paul Liang</a>
      </td>
 
   </tr>
      <td>
         <img style="width: 150px" src="/social-iq-2.0/assets/img/sheryl.jpg"/>
-         <br/><a href="https://www.linkedin.com/in/sheryl-m-a26809188/">Sheryl Mathew</a>
+         <br/><a href="https://www.linkedin.com/in/sheryl-m-a26809188/" style="text-align:center;">Sheryl Mathew</a>
      </td>
      <td>
         <img style="width: 150px" src="/social-iq-2.0/assets/img/claire.jpeg"/>
-         <br/><a href="https://www.linkedin.com/in/claire-ko-053706190/">Claire Ko</a>
+         <br/><a href="https://www.linkedin.com/in/claire-ko-053706190/" style="text-align:center;">Claire Ko</a>
      </td>
       <td>
         <img style="width: 150px" src="/social-iq-2.0/assets/img/lp.jpg"/>
-         <br/><a href="https://www.cs.cmu.edu/~morency/">Louis-Philippe Morency</a>
+         <br/><a href="https://www.cs.cmu.edu/~morency/" style="text-align:center;">Louis-Philippe Morency</a>
      </td>
 </table>
 
