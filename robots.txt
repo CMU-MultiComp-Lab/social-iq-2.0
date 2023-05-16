@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://cmu-multicomp-lab.github.io//social_iq_2_website//sitemap.xml
