@@ -130,7 +130,7 @@ The [Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/
 
   </tr>
      <td>
-        <img style="width: 150px" src="/social-iq-2.0/assets/img/sheryl.jpg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/sheryl2.jpg"/>
          <br/><a href="https://www.linkedin.com/in/sheryl-m-a26809188/" style="text-align:center;">Sheryl Mathew</a>
      </td>
      <td>
