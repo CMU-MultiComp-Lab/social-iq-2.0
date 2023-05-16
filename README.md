@@ -1,27 +1,28 @@
-# al-folio
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+# Social-IQ 2.0 Challenge Website
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+ALL-CONTRIBUTORS-BADGE:END -->
 
-[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
+<!-- [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml) -->
+<!-- [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
 [![Maintainers][maintainers]](#maintainers)
 [![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
 [![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork) -->
 
-[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+<!-- [![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
 [![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio) -->
 
-A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
-If you like the theme, give it a star!
+This is the website repo for the inaugural <b>Social-IQ Challenge</b>, co-hosted with the [Artificial Social Intelligence Workshop](https://sites.google.com/view/asi-iccv-2023/home) at [ICCV '23](https://iccv2023.thecvf.com).
 
-[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+All details about the Social-IQ 2.0 challenge can be found on the [challenge GitHub repo](https://github.com/abwilf/Social-IQ-2.0-Challenge). 
 
-## User community
+![Preview](assets/img/paris2.jpg)
+
+<!-- ## User community
 
 The vibrant community of **al-folio** users is growing!
 Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
@@ -552,15 +553,15 @@ You may also use the following codes for displaying this in any other pages.
 
 ```html
 <!-- code for GitHub users -->
-{% if site.data.repositories.github_users %}
+<!-- {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.html username=user %}
   {% endfor %}
 </div>
-{% endif %}
+{% endif %} -->
 
-<!-- code for GitHub trophies -->
+<!-- code for GitHub trophies
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
   {% if site.data.repositories.github_users.size > 1 %}
@@ -570,29 +571,29 @@ You may also use the following codes for displaying this in any other pages.
   {% include repository/repo_trophies.html username=user %}
   </div>
 {% endfor %}
-{% endif %}
+{% endif %} -->
 
 <!-- code for GitHub repositories -->
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
+<!-- {% if site.data.repositories.github_repos %} -->
+<!-- <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"> -->
+  <!-- {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.html repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+  {% endfor %} -->
+<!-- </div>
+<!-- {% endif %}
 ```
-
+<!-- 
 #### Theming
 
-A variety of beautiful theme colors have been selected for you to choose from.
+<!-- A variety of beautiful theme colors have been selected for you to choose from.
 The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
 The stock theme color options available can be found at `_sass/variables.scss`.
 You can also add your own colors to this file assigning each a name for ease of
-use across the template.
+use across the template. 
 
-#### Social media previews
+<!-- #### Social media previews
 
 **al-folio** supports preview images on social media.
 To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
@@ -601,9 +602,9 @@ Once you have done so, all your site's pages will include Open Graph data in the
 You will then need to configure what image to display in your site's social media previews.
 This can be configured on a per-page basis, by setting the `og_image` page variable.
 If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your `_config.yml`.
-In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
+In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews. -->
 
-#### Atom (RSS-like) Feed
+<!-- #### Atom (RSS-like) Feed
 
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
 The feed is reachable simply by typing after your homepage `/feed.xml`.
@@ -615,24 +616,24 @@ By default, there will be a related posts section on the bottom of the blog post
 These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post.
 If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post.
 If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in `_config.yml`.
-
-## Contributing
+<!--  -->
+<!-- ## Contributing
 
 Contributions to al-folio are very welcome!
-Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
+Before you get started, please take a look at [the guidelines](CONTRIBUTING.md). -->
 
-If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
-For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
+<!-- If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
+For more complex issues/bugs or feature requests, please open an issue using the appropriate template. -->
 
-### Maintainers
+<!-- ### Maintainers -->
 
-Our most active contributors are welcome to join the maintainers team.
-If you are interested, please reach out!
+<!-- Our most active contributors are welcome to join the maintainers team.
+If you are interested, please reach out! --> 
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
+<!-- <table>
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://maruan.alshedivat.com"><img src="https://avatars.githubusercontent.com/u/2126561?v=4" width="100px;" alt=""/><br /><sub><b>Maruan</b></sub></a></td>
@@ -641,16 +642,6 @@ If you are interested, please reach out!
       <td align="center" valign="top" width="14.28%"><a href="https://george-gca.github.io/"><img src="https://avatars.githubusercontent.com/u/31376482?v=4" width="100px;" alt=""/><br /><sub><b>George</b></sub></a></td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
-
-Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
-Since then, it got a full re-write of the styles and many additional cool features.
+From the **al-folio** theme, based on the [\*folio theme](https://github.com/bogoli/-folio). 
