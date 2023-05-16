@@ -4,6 +4,28 @@
   object-fit: cover;
 }
 
+.oneThird {
+  width: 30%;
+  float: left;
+  margin: 0.5%;
+}
+
+.oneThird img {
+  width: 100%;
+}
+
+.square {
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
 /*******************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
