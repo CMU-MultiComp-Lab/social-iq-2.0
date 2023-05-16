@@ -29,12 +29,12 @@ The Social-IQ 2.0 Challenge will be co-hosted with the [Artificial Social Intell
 If you plan to participate, please fill out this [form](https://forms.gle/ZVTAvNunBQUa9ncJ6) with your email address so we can keep you up to date with any relevant updates about the challenge.
 
 ## Important Dates 📅
-- [x] Challenge is released 📅  May 15
-- [ ] Challenge and paper submission sites open, test set released 📅  mid-June
-- [ ] Paper submissions and final challenge submissions due 📅 July 21
-- [ ] Acceptance decisions issued 📅 August 4
-- [ ] Camera ready paper due 📅 August 11
-- [ ] ICCV workshop 📅 one of the days in October 4-6, exact date TBA
+- [x] Challenge is released: <b>May 15</b>
+- [ ] Challenge and paper submission sites open, test set released: <b> mid-June</b>
+- [ ] Paper submissions and final challenge submissions due: <b>July 21</b>
+- [ ] Acceptance decisions issued: <b>August 4</b>
+- [ ] Camera ready paper due: <b>August 11</b>
+- [ ] ICCV workshop: <b>October 2</b>
 
 ## Awards 🏆 and Prizes 💰
 There will be over $1,200 in total prizes. We will give the following awards and may create additional awards as well.
