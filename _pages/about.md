@@ -21,7 +21,8 @@ social: true  # includes social icons at the bottom of the page
 <!-- ![alt text main fig](/assets/img/siq_banner_img.png){: .banner-image}
 A novel dataset to benchmark Social Intelligence. -->
 
-![alt text paris](/social-iq-2.0/assets/img/paris.jpg){: .banner-image}
+<!-- ![alt text paris](/social-iq-2.0/assets/img/paris.jpg){: .banner-image} -->
+![alt text paris](/assets/img/paris2.jpg){: .banner-image}
 
 The Social-IQ 2.0 Challenge will be co-hosted with the [Artificial Social Intelligence Workshop at ICCV '23](https://sites.google.com/view/asi-iccv-2023/home), and will comprise a challenge with paper submissions on the Social-IQ 2.0 task. The dataset contains over 1,000 videos, annotated with over 6,000 4-class multiple choice questions. There are $1,200 in total prizes.
 
@@ -116,7 +117,42 @@ This will update `siq2/current_split.json`, which will describe the videos in th
 ## Questions
 If you have any questions, please open a Github issue repository or email awilf@cs.cmu.edu
 
-The [Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/) was created by the [MultiComp Lab](http://multicomp.cs.cmu.edu) at [CMU](https://www.cmu.edu). 
+## Team 
+The [Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/) was created by several members of the [MultiComp Lab](http://multicomp.cs.cmu.edu) at [CMU](https://www.cmu.edu). 
+
+<table align="center">
+  <tr>
+     <td>
+        <img style="width: 200px" src="../assets/img/alexwilf.jpg"/>
+         <br/><a href="https://abwilf.github.io">Alex Wilf</a>
+     </td>
+     <td>
+        <img style="width: 200px" src="../assets/img/leena.jpg"/>
+         <br/><a href="https://l-mathur.github.io">Leena Mathur</a>
+     </td>
+     <td>
+        <img style="width: 200px" src="../assets/img/youssouf.jpg"/>
+         <br/><a href="https://gkebe.github.io">Youssouf Kebe</a>
+     </td>
+    <td>
+        <img style="width: 200px" src="../assets/img/paul.jpeg"/>
+         <br/><a href="https://www.cs.cmu.edu/~pliang/">Paul Liang</a>
+     </td>
+
+  </tr>
+     <td>
+        <img style="width: 200px" src="../assets/img/sheryl.jpg"/>
+         <br/><a href="https://www.linkedin.com/in/sheryl-m-a26809188/">Sheryl Mathew</a>
+     </td>
+     <td>
+        <img style="width: 200px" src="../assets/img/claire.jpeg"/>
+         <br/><a href="https://www.linkedin.com/in/claire-ko-053706190/">Claire Ko</a>
+     </td>
+      <td>
+        <img style="width: 200px" src="../assets/img/lp.jpg"/>
+         <br/><a href="https://www.cs.cmu.edu/~morency/">Louis-Philippe Morency</a>
+     </td>
+</table>
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
