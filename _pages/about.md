@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 <!-- ![alt text main fig](/assets/img/siq_banner_img.png){: .banner-image}
 A novel dataset to benchmark Social Intelligence. -->
 
-![alt text paris](/assets/img/paris.jpg){: .banner-image}
+![alt text paris](/social-iq-2.0/assets/img/paris.jpg){: .banner-image}
 
 The Social-IQ 2.0 Challenge will be co-hosted with the [Artificial Social Intelligence Workshop at ICCV '23](https://sites.google.com/view/asi-iccv-2023/home), and will comprise a challenge with paper submissions on the Social-IQ 2.0 task. The dataset contains over 1,000 videos, annotated with over 6,000 4-class multiple choice questions. There are $1,200 in total prizes.
 
