@@ -123,33 +123,33 @@ The [Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/
 <table align="center">
   <tr>
      <td>
-        <img style="width: 200px" src="/social-iq-2.0/assets/img/alexwilf.jpg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/alexwilf.jpg"/>
          <br/><a href="https://abwilf.github.io">Alex Wilf</a>
      </td>
      <td>
-        <img style="width: 200px" src="/social-iq-2.0/assets/img/leena.jpg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/leena.jpg"/>
          <br/><a href="https://l-mathur.github.io">Leena Mathur</a>
      </td>
      <td>
-        <img style="width: 200px" src="/social-iq-2.0/assets/img/youssouf.jpg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/youssouf.jpg"/>
          <br/><a href="https://gkebe.github.io">Youssouf Kebe</a>
      </td>
     <td>
-        <img style="width: 200px" src="/social-iq-2.0/assets/img/paul.jpeg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/paul.jpeg"/>
          <br/><a href="https://www.cs.cmu.edu/~pliang/">Paul Liang</a>
      </td>
 
   </tr>
      <td>
-        <img style="width: 200px" src="/social-iq-2.0/assets/img/sheryl.jpg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/sheryl.jpg"/>
          <br/><a href="https://www.linkedin.com/in/sheryl-m-a26809188/">Sheryl Mathew</a>
      </td>
      <td>
-        <img style="width: 200px" src="/social-iq-2.0/assets/img/claire.jpeg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/claire.jpeg"/>
          <br/><a href="https://www.linkedin.com/in/claire-ko-053706190/">Claire Ko</a>
      </td>
       <td>
-        <img style="width: 200px" src="/social-iq-2.0/assets/img/lp.jpg"/>
+        <img style="width: 150px" src="/social-iq-2.0/assets/img/lp.jpg"/>
          <br/><a href="https://www.cs.cmu.edu/~morency/">Louis-Philippe Morency</a>
      </td>
 </table>
