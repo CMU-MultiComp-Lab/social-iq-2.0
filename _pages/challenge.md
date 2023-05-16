@@ -10,7 +10,7 @@ social: true  # includes social icons at the bottom of the page
 
 ![alt text paris](/assets/img/paris.jpg){: .banner-image}
 
-The Social-IQ 2.0 Challenge will be co-hosted with the [Artificial Social Intelligence Workshop at ICCV '23](https://sites.google.com/view/asi-iccv-2023/home), and will comprise a challenge with paper submissions on the Social-IQ 2.0 task. The dataset contains over 1,000 videos, annotated with over 6,000 4-class multiple choice questions. There are $1,200 in total prizes.
+The inaugural <b>Social-IQ Challenge</b> will be co-hosted with the [Artificial Social Intelligence Workshop](https://sites.google.com/view/asi-iccv-2023/home) at [ICCV '23](https://iccv2023.thecvf.com). This challenge welcomes paper submissions on the new Social-IQ 2.0 task, focused on multimodal VideoQA in socially-rich situations (1000+ videos, 6000+ questions, 24,0000+ answers). There are $1,200 in total prizes for challenge participants.
 
 If you plan to participate, please fill out this [form](https://forms.gle/ZVTAvNunBQUa9ncJ6) with your email address so we can keep you up to date with any relevant updates about the challenge.
 
@@ -26,7 +26,7 @@ If you plan to participate, please fill out this [form](https://forms.gle/ZVTAvN
 There will be over $1,200 in total prizes. We will give the following awards and may create additional awards as well.
 - **Challenge Winner**: highest performing submission
 - **Best Few-Shot Paper**: best paper in the Few-Shot Research Focus (described below)
-- **Best Fusion and Reasoning Paper**: best paper in the Fusion and Reasoning Focus
+- **Best Fusion and Reasoning Paper**: best paper in the Fusion and Reasoning Focus (described below)
 
 ## Research Focuses 🔍
 In order to encourage diverse, innovative research into solving the Social-IQ 2.0 task, submissions will specify one of three research focuses.
@@ -101,7 +101,9 @@ This will update `siq2/current_split.json`, which will describe the videos in th
 **A finer point about the dataset**: Because you will download videos from youtube directly, the set of videos that constitute the dataset may change slightly between the release and conclusion of the challenge. **We will treat the "final" dataset as the set of videos downloaded from youtube one week before the challenge concludes**. If you download the dataset now and report your results later, that is ok – we will simply discard predictions made on test set videos that are no longer available when we determine final testing accuracies, and you will not be penalized for training or validating on videos that are no longer available by the end of the challenge.
 
 ## Questions
-If you have any questions, please open a Github issue repository or email me (awilf@cs.cmu.edu).
+If you have any questions, please open a Github issue repository or email awilf@cs.cmu.edu
+
+The [Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/) was created by the [MultiComp Lab](http://multicomp.cs.cmu.edu) at [CMU](https://www.cmu.edu). 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

@@ -39,7 +39,7 @@ If you plan to participate, please fill out this [form](https://forms.gle/ZVTAvN
 There will be over $1,200 in total prizes. We will give the following awards and may create additional awards as well.
 - **Challenge Winner**: highest performing submission
 - **Best Few-Shot Paper**: best paper in the Few-Shot Research Focus (described below)
-- **Best Fusion and Reasoning Paper**: best paper in the Fusion and Reasoning Focus
+- **Best Fusion and Reasoning Paper**: best paper in the Fusion and Reasoning Focus (described below)
 
 ## Research Focuses 🔍
 In order to encourage diverse, innovative research into solving the Social-IQ 2.0 task, submissions will specify one of three research focuses.
@@ -114,7 +114,10 @@ This will update `siq2/current_split.json`, which will describe the videos in th
 **A finer point about the dataset**: Because you will download videos from youtube directly, the set of videos that constitute the dataset may change slightly between the release and conclusion of the challenge. **We will treat the "final" dataset as the set of videos downloaded from youtube one week before the challenge concludes**. If you download the dataset now and report your results later, that is ok – we will simply discard predictions made on test set videos that are no longer available when we determine final testing accuracies, and you will not be penalized for training or validating on videos that are no longer available by the end of the challenge.
 
 ## Questions
-If you have any questions, please open a Github issue repository or email me (awilf@cs.cmu.edu).
+If you have any questions, please open a Github issue repository or email awilf@cs.cmu.edu
+
+The [Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/) was created by the [MultiComp Lab](http://multicomp.cs.cmu.edu) at [CMU](https://www.cmu.edu). 
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
