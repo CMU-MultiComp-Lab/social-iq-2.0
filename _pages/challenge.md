@@ -9,7 +9,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <!-- ![alt text paris](/assets/img/paris.jpg){: .banner-image} -->
-![alt text paris](/assets/img/paris2.jpg){: .banner-image}
+<!-- ![alt text paris](/assets/img/paris2.jpg){: .banner-image} -->
+![alt text paris](/social-iq-2.0/assets/img/paris2.jpg){: .banner-image}
 
 The inaugural <b>Social-IQ Challenge</b> will be co-hosted with the [Artificial Social Intelligence Workshop](https://sites.google.com/view/asi-iccv-2023/home) at [ICCV '23](https://iccv2023.thecvf.com). This challenge welcomes paper submissions on the new Social-IQ 2.0 task, focused on multimodal VideoQA in socially-rich situations (1000+ videos, 6000+ questions, 24,0000+ answers). There are $1,200 in total prizes for challenge participants.
 
