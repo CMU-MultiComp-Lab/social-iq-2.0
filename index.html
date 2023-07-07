@@ -108,7 +108,13 @@
 A novel dataset to benchmark Social Intelligence. -->
 
 <!-- ![alt text paris](/social-iq-2.0/assets/img/paris.jpg){: .banner-image} -->
-<p><img src="/social-iq-2.0/assets/img/paris2.jpg" alt="alt text paris" class="banner-image"></p>
+<p><img src="/social-iq-2.0/assets/img/paris2.jpg" alt="alt text paris" class="banner-image">
+<!-- # The Social-IQ 2.0 Challenge -->
+<img src="_assets/siq_banner2.jpg" alt="alt text"></p>
+<p align="center">
+<em>Sample questions from the Social-IQ 2.0 VideoQA task.</em>
+</p>
+<p>    </p>
 
 <p>The <b><a href="https://cmu-multicomp-lab.github.io/social-iq-2.0/">Social-IQ 2.0 Challenge</a></b> is designed to benchmark recent AI technologies’ skills to reason about social interactions, which is referred as Artificial Social Intelligence. This challenge will be part of ICCV 2023 Workshop on Artificial Social Intelligence. The Social-IQ 2.0 dataset contains over 1,000 videos, accompanied with 6,000+ multiple-choice questions. The challenge plans to award over $1,200 in total prizes, and will be co-hosted with the <a href="https://sites.google.com/view/asi-iccv-2023/home" rel="external nofollow noopener" target="_blank">Artificial Social Intelligence Workshop</a> at <a href="https://iccv2023.thecvf.com" rel="external nofollow noopener" target="_blank">ICCV ‘23</a>.</p>
 
@@ -120,7 +126,7 @@ A novel dataset to benchmark Social Intelligence. -->
 <input type="checkbox" class="task-list-item-checkbox" disabled checked>Challenge is released: <b>May 15</b>
 </li>
   <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled>Challenge and paper submission sites open, test set released: <del>mid-June</del> <strong>early-July</strong>
+<input type="checkbox" class="task-list-item-checkbox" disabled checked>Challenge and paper submission sites open, test set released: <del>mid-June</del> <strong>early-July</strong>
 </li>
   <li class="task-list-item">
 <input type="checkbox" class="task-list-item-checkbox" disabled>Paper submissions and final challenge submissions due: <b>July 21</b>
@@ -163,13 +169,21 @@ A novel dataset to benchmark Social Intelligence. -->
 <h3 id="representation-learning-focus-️">Representation Learning Focus 🎛️</h3>
 <p>We added this third category to acknowledge all the impactful research happening in multimodal representation learning. We acknowledge that not all researchers will have the computation power to train or fine-tune these large models, and this is why no direct award will be given to this category, beyond the Challenge Winner award. But we still believe that it is important to mention this research category. For this category, you may use as much compute as you would like, provided (as with all challenge submissions) that you only use data in the Social-IQ 2.0 dataset release for your training. Please reach out to us if you intend to use specialized hardware such as TPU’s, so we can ensure your code is reproducible. If you would like to use TPU’s, we recommend applying for <a href="https://sites.research.google/trc/about/" rel="external nofollow noopener" target="_blank">this program from Google</a>; their generous support allowed us to run the MERLOT-Reserve baselines for this challenge. You may decide to explore self-supervised setting (where the labels are not used during the representation learning phase) or directly train your representation model in a supervised setting such as MERLOT’s finetuning results.</p>
 
+<h2 id="paper-submissions-">Paper Submissions 📤</h2>
+<p>For submissions to be considered for the Social-IQ 2.0 challenge, teams are required to submit a research paper describing the approach in detail and share a link to their github repository. This github link will enable the review committee to ensure that results are genuine and reproducible. During paper submission, please specify the research focus (out of the three categories previously mentioned) you would like your paper to be considered for. Please format your papers according to <a href="https://iccv2023.thecvf.com/submission.guidelines-361600-2-20-16.php" rel="external nofollow noopener" target="_blank">ICCV’s submission guidelines</a>. Papers can be up to 6 pages (with no cap on additional pages for references and appendices). You can submit through CMT at the link below:</p>
+
+<p><a href="https://cmt3.research.microsoft.com/asisiqiccv2023" rel="external nofollow noopener" target="_blank"><strong>Paper and Challenge Submission Link</strong></a></p>
+
 <h2 id="challenge-submissions-️">Challenge Submissions 🏔️</h2>
-<p>It is expected that teams will use the validation data split to evaluate their model performance. Once a promising approach is found, teams can submit their results from the held-out test set (released at a later date) using the online submission site. You can only submit five times, so use your submissions wisely! Performance on the test set will be used to decide the Challenge Winner.</p>
+<p>It is expected that teams will use the validation data split to evaluate their model performance. Once a promising approach is found, teams will submit their predictions on the test set (<code class="language-plaintext highlighter-rouge">siq2/qa/qa_test.json</code>) along with their paper pdf using the online submission site linked above. Performance on the test set will be used to decide the Challenge Winner. The <code class="language-plaintext highlighter-rouge">qa_test.json</code> file in this repository is a superset of the test set that will be used for scoring.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">qa_test.json</code> file does not have labels, so please indicate your method’s predicted labels by adding a field “answer_idx” with an index between 0 and 3 for each question.</p>
+
+<p>In essence, the current qa_test.json contains the following fields: [qid, q, vid_name, ts, a0, a1, a2, a3]. Your qa_test.json will contain: [qid, q, vid_name, ts, a0, a1, a2, a3, <strong>answer_idx</strong>], where answer_idx indicates which index your model believes is the answer for this question.</p>
+
+<p><strong>Please do not alter the other field names, or include any other fields in your submission</strong>.</p>
 
 <p>IMPORTANT: Please do not perform additional training or adaptation on the test set. The training should be oly happening on the training set of the Social-IQ 2.0 dataset.</p>
-
-<h2 id="paper-submissions-">Paper Submissions 📤</h2>
-<p>For your submission to be considered in the Social-IQ 2.0 challenge, teams are required to submit a research paper describing the approach in details and share a link to their github repository. This github link with enable the review committee to ensure that results are genuine and reproducible. During your paper submission, please specific the research focus (out of the three categories previously mentions) you would like your paper to be considered for. Please format your papers according to <a href="https://iccv2023.thecvf.com/submission.guidelines-361600-2-20-16.php" rel="external nofollow noopener" target="_blank">ICCV’s submission guidelines</a>. Papers can be up to 6 pages (with no cap on additional pages for references and appendices).</p>
 
 <h2 id="review-criteria-">Review Criteria 🎉</h2>
 <p>The following four criteria will be taken into consideration during the review process:</p>
@@ -217,7 +231,7 @@ sudo apt update &amp;&amp; sudo apt install ffmpeg # or however you need to inst
 <p><strong>A finer point about the dataset</strong>: Because you will download videos from youtube directly, the set of videos that constitute the dataset may change slightly between the release and conclusion of the challenge. <strong>We will treat the “final” dataset as the set of videos downloaded from youtube one week before the challenge concludes</strong>. If you download the dataset now and report your results later, that is ok – we will simply discard predictions made on test set videos that are no longer available when we determine final testing accuracies, and you will not be penalized for training or validating on videos that are no longer available by the end of the challenge.</p>
 
 <h2 id="questions">Questions</h2>
-<p>If you have any questions, please open a Github issue on the repository or email awilf@cs.cmu.edu</p>
+<p>If you have any questions, please open a Github issue on this repository or email awilf@cs.cmu.edu</p>
 
 <p>The <a href="https://cmu-multicomp-lab.github.io/social-iq-2.0/">Social-IQ 2.0 Challenge</a> was created by the <a href="http://multicomp.cs.cmu.edu" rel="external nofollow noopener" target="_blank">MultiComp Lab</a> at <a href="https://www.cmu.edu" rel="external nofollow noopener" target="_blank">CMU</a>.</p>
 
