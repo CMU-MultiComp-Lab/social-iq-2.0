@@ -24,11 +24,6 @@ A novel dataset to benchmark Social Intelligence. -->
 <!-- ![alt text paris](/social-iq-2.0/assets/img/paris.jpg){: .banner-image} -->
 ![alt text paris](/social-iq-2.0/assets/img/paris2.jpg){: .banner-image}
 <!-- # The Social-IQ 2.0 Challenge -->
-![alt text](_assets/siq_banner2.jpg)
-<p align="center">
-<em>Sample questions from the Social-IQ 2.0 VideoQA task.</em>
-</p>
-&nbsp;&nbsp;&nbsp;&nbsp;
 
 The <b>[Social-IQ 2.0 Challenge](https://cmu-multicomp-lab.github.io/social-iq-2.0/)</b> is designed to benchmark recent AI technologies' skills to reason about social interactions, which is referred as Artificial Social Intelligence. This challenge will be part of ICCV 2023 Workshop on Artificial Social Intelligence. The Social-IQ 2.0 dataset contains over 1,000 videos, accompanied with 6,000+ multiple-choice questions. The challenge plans to award over $1,200 in total prizes, and will be co-hosted with the [Artificial Social Intelligence Workshop](https://sites.google.com/view/asi-iccv-2023/home) at [ICCV '23](https://iccv2023.thecvf.com).
 
